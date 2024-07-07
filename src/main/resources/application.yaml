@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-security
+  datasource:
+    url: jdbc:mysql://localhost:3306/users_batch3?createDatabaseIfNotExist=true
+    username: root
+    password: R@@visourav
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+rsa:
+  private-key: classpath:certs/private.pem
+  public-key: classpath:certs/public.pem
